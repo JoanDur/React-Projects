@@ -4,54 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patrones en React: callbacks, children y spread</title>
-
-    <!--
-      ============================================================
-      PROYECTO EDUCATIVO - PATRONES EN REACT
-      ============================================================
-      Este proyecto demuestra tres patrones fundamentales de React
-      trabajando con COMPONENTES y PROPS:
-
-        1. Callbacks  -> pasar funciones como props (padre <- hijo)
-        2. prop children -> contenido entre las etiquetas del componente
-        3. Operador spread (...) -> expandir props/objetos/arrays
-
-      Para mantenerlo simple y sin necesidad de "npm install",
-      usamos React, ReactDOM y Babel desde un CDN. Babel permite
-      escribir JSX directamente en el navegador.
-      ============================================================
-    -->
-
-    <!-- React: la librería principal (crea y maneja componentes) -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-
-    <!-- ReactDOM: conecta React con el DOM del navegador -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-
-    <!-- Babel: traduce JSX a JavaScript que el navegador entiende -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <!-- Hoja de estilos del proyecto -->
-    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <!--
-      Contenedor raíz: aquí React "montará" toda la aplicación.
-      El div empieza vacío y React lo rellena desde app.jsx.
-    -->
+    <!-- React montará toda la aplicación dentro de este div -->
     <div id="root"></div>
 
-    <!--
-      type="text/babel" le indica a Babel que debe procesar este
-      archivo (convertir el JSX a JavaScript) antes de ejecutarlo.
-    -->
-    <script type="text/babel" src="app.jsx"></script>
+    <!-- Punto de entrada. Vite procesa este módulo y su JSX. -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
