@@ -1,5 +1,11 @@
 # React-Projects
-Este repositorio tiene como finalidad tener las actividades realizadas del curso React-ACM.
-Su contenido es educativo y realizado por
-Joan Sebastian Duran Pradilla
-Cod. 20232020019
+
+Este repositorio contiene las actividades y ejercicios realizados durante el curso **React-ACM**.
+
+El contenido tiene fines **educativos** y corresponde al trabajo desarrollado durante el curso.
+
+## Autor
+
+**Joan Sebastian Duran Pradilla**  
+**Código:** 20232020019
+
