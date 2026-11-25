@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.pomodoro-container {
+  max-width: 440px;
+  margin: 2.5rem auto;
+  padding: 1.75rem;
+  border-radius: 14px;
+  border: 1px solid #cbd5e1;
+  text-align: center;
+  color: #111827;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+  transition: background-color 0.25s ease;
+}
+
+.pomodoro-container--trabajo {
+  background-color: #fee2e2;
+  border-color: #fca5a5;
+}
+
+.pomodoro-container--descanso {
+  background-color: #d1fae5;
+  border-color: #6ee7b7;
+}
+
+.pomodoro-title {
+  margin: 0 0 1.25rem 0;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.modo-selector {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.modo-btn {
+  padding: 0.5rem 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #9ca3af;
+  background-color: #ffffff;
+  color: #111827;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.modo-btn--activo {
+  background-color: #111827;
+  color: #ffffff;
+  border-color: #111827;
+  font-weight: 700;
+}
+
+.reloj-display {
+  margin: 1rem 0 1.5rem 0;
+}
+
+.reloj-tiempo {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  color: #111827;
+}
+
+.reloj-etiqueta {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.controles-timer {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+
+.btn--secondary {
+  background-color: #ffffff;
+  color: #111827;
+  border: 1px solid #9ca3af;
+}
+
+.estadisticas-box {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(17, 24, 39, 0.14);
+  font-size: 0.95rem;
+  color: #111827;
+}

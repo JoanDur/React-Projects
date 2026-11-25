@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.5rem;
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-carrito {
+  color: #fde047;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.page-container {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.page-title {
+  margin-top: 0;
+  color: #111827;
+}
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card-box {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1.1rem;
+  color: #111827;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.producto-precio {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1d4ed8;
+  margin: 0.5rem 0 0.85rem 0;
+}
+
+.acciones-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn--secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.btn--danger {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.enlace-detalle {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.enlace-detalle:hover {
+  text-decoration: underline;
+}
+
+.carrito-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.carrito-total {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+}

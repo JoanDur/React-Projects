@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.app-container {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.app-title {
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  margin: 0 0 0.85rem 0;
+  font-size: 1.15rem;
+}
+
+.pedido-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pedido-input {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.pedido-input--mesa {
+  width: 95px;
+}
+
+.pedido-input--platillo {
+  flex: 1;
+  min-width: 180px;
+}
+
+.pedido-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.65rem;
+  border: 1px solid transparent;
+}
+
+.pedido-item--pendiente {
+  background-color: #fef3c7;
+  border-color: #fcd34d;
+}
+
+.pedido-item--listo {
+  background-color: #dcfce7;
+  border-color: #86efac;
+}
+
+.pedido-mesa {
+  font-weight: 700;
+  margin-right: 0.35rem;
+}
+
+.pedido-estado {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.pedido-acciones {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.btn--secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.btn--danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.empty-msg {
+  color: #6b7280;
+  margin: 0;
+}
